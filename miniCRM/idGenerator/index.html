@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>id產生器</title>
+
+    <!-- load css -->
+    <link rel="stylesheet" href="./css/calcite-web.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- load js -->
+    <script src="./js/calcite-web.js"></script>
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/sha256.js"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <h1 class="text-center">miniCRM</h1>
+    <div class="container">
+        <div class="column-24 center-column">
+            <h3>ID 產生器</h3>
+            <div class="block-group block-group-2-up phone-block-group-1-up">
+                <div class="block trailer-half">
+                    <form>
+                        <label>
+                            輸入要產生的筆數
+                            <input type="text" value="1" id="gt-count"
+                                placeholder="數量筆數">
+                        </label>                
+                        
+                        <label>
+                            輸入客戶代碼
+                            <input type="text" id="gt-accode"
+                                placeholder="客戶代碼，例如: Sinica">
+                        </label>  
+
+                        <label>
+                            選擇資料表
+                            <select id="gt-tb" class="select-full">
+                                <option value="accounts" selected>客戶</option>
+                                <option value="stockholder">利害關係人</option>
+                                <option value="machines">主機</option>
+                                <option value="systems">資訊系統</option>
+                                <option value="components">軟體元件</option>
+                                <option value="licenses">軟體授權</option>
+                                <option value="wbs">wbs</option>
+                                <option value="events">事件</option>
+                                <option value="plans">事件規劃</option>
+                                <option value="tasks">任務執行</option>
+                            </select>
+                        </label>
+                    </form>
+                    <button id="gt-run" class="btn btn-large">產生</button>
+                </div>
+                <div class="block">
+                    <label>
+                        結果
+                        <textarea id="gt-result" rows="10"></textarea>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
