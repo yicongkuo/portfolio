@@ -3,11 +3,15 @@ let ui = {
 	'parse': $('#parse'),
 	'oplayers': $('#oplayers'),
 	'bslayers': $('#bslayers'),
+	'oplayersTable': $('#oplayersTable'),
+	'bslayersTable': $('#bslayersTable')
 };
 
 ui.parse.on('click', function () {
 	ui.oplayers.empty();
+	ui.oplayersTable.empty();
 	ui.bslayers.empty();
+	ui.bslayersTable.empty();
 
 	let webmapJSON = ui.webmapJSON.val();
 	let mapObj;
