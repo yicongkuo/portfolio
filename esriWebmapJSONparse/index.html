@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WebMap JSON</title>
+</head>
+<body>
+	<section>
+		<button id="parse">解析</button>	
+	</section>
+
+	<div>
+		<textarea name="webmapJSON" id="webmapJSON" cols="50" rows="10"></textarea>
+	</div>
+
+	<div id="oplayers"></div>
+	<table id="oplayersTable" class="display"></table>
+
+	<div id="bslayers"></div>
+	<table id="bslayersTable" class="display"></table>
+
+	<!-- style -->
+	<link rel="stylesheet" href="./dataTables.dataTables.css">
+	
+	<!-- library-->
+	<script src="./jquery-3.7.1.min.js"></script>
+	<script src="./dataTables.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
