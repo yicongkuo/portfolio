@@ -14,3 +14,6 @@
 使用ArcGIS Feature Service作為後端API，建置小型的CRM網頁應用系統，管理與客戶間的各種活動紀錄，以此做為拓展商業活動的依據，並建立內部人員溝通的共同橋梁，讓客戶資訊透明。
 ### 雛型功能
 [unique id 產生器](https://yicongkuo.github.io/portfolio/miniCRM/idGenerator/)
+
+## [esri WebMap JSON 解析](https://yicongkuo.github.io/portfolio/esriWebmapJSONparse/)
+列出ArcGIS WebMap中使用的圖層列表。
