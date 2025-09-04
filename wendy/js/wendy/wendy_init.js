@@ -257,7 +257,7 @@ $(function(){
 
 				// air quality data url
 				// var aqxUrl="http://opendata.epa.gov.tw/ws/Data/AQX/?$orderby=SiteName&$skip=0&$top=1000&format=json";					
-				var aqxUrl="https://script.google.com/macros/s/AKfycbzpHxC3q2ANPe_9KVFjyTYpAtDvEUo2M-IzgDsQ-H8BttmIBSm7izPQiAAx8b1cXJgt/exec";				
+				var aqxUrl="https://script.google.com/macros/s/AKfycbyym_PaLb5sEESlx-u3X1fkL_rFP3_YPm2E5ZzNfNvI0y0pi429wYXvrj50JIT0HpoL/exec";				
 
 				d3.json(aqxUrl, function (aqx){						
 					
